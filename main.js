@@ -19,9 +19,9 @@ $(document).ready(function() {
 });
 });
 
-//kanavilaje netrodu
+//aravic kadaloram
 $(document).ready(function() {
- SC.stream('/tracks/462792732',function(sound){
+ SC.stream('/tracks/347604462',function(sound){
            $("#start1").click(function(e) {
              e.preventDefault();
              sound.start();
